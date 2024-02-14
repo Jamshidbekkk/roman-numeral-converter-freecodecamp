@@ -1,0 +1,71 @@
+body {
+    font-family: 'Castoro Titling', serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.freecodecamp-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input[type='number'] {
+    padding: 8px 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 70%;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button[type='button'] {
+    padding: 8px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button[type='button']:hover {
+    background-color: #0056b3;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
